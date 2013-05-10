@@ -104,8 +104,3 @@ class LawHelp
 	} // end method index()
 	
 }
-
-$lawhelp = new LawHelp();
-$lawhelp->harvest_documents();
-
-echo '<pre>'.print_r($lawhelp->topics, TRUE).'</pre>';
